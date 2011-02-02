@@ -1,6 +1,10 @@
 package Kompilator;
-
-use 5.006;
+use Kompilator::Api::PodstKonfiguratorImpl;
+use Kompilator::Pascal::Leksyka;
+use Kompilator::Pascal::Syntaktyka;
+use Kompilator::Pascal::Semantyka;
+use Kompilator::Java::Synteza;
+use Kompilator::Debug::AspectDebugger;
 use strict;
 use warnings;
 
@@ -14,7 +18,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.5';
 
 
 =head1 SYNOPSIS
@@ -35,18 +39,52 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
+=head2 new
 
 =cut
 
-sub function1 {
+sub new
+{
+	my ( $class, $paramP ) = @_;
+	my $self = {};
+	bless $self, $class;
+	
+	my $konf = new Kompilator::Api::PodstKonfiguratorImpl(@$paramP);
+	$self->_leksykaP( new Kompilator::Pascal::Leksyka( $konf->opisP(), $konf->tP(), $konf->zrodloP() ) ); 
+	$self->_syntaktykaP( new Kompilator::Pascal::Syntaktyka( $konf->opisP(), $konf->tP() ) );
+	$self->_syntezaP( new Kompilator::Java::Synteza( $konf->wyjsciePlik ) );
+	$self->_semantykaP( new Kompilator::Pascal::Semantyka( $konf->opisP(), $konf->tP(), $self->_syntaktykaP->drzewoP->korzenP, $self->_syntezaP ) );
+	$self->_debugP( new Kompilator::Debug::AspectDebugger( $konf->konfiguracjaP, $self->_leksykaP, $self->_syntaktykaP, $self->_semantykaP, $self->_semantykaP ) );	
+	
+	return $self;
 }
 
-=head2 function2
+sub _leksykaP { $_[0]->{leksyka}=$_[1] if defined $_[1]; $_[0]->{leksyka} }
+sub _syntaktykaP { $_[0]->{syntaktyka}=$_[1] if defined $_[1]; $_[0]->{syntaktyka} }
+sub _semantykaP { $_[0]->{semantyka}=$_[1] if defined $_[1]; $_[0]->{semantyka} }
+sub _syntezaP { $_[0]->{synteza}=$_[1] if defined $_[1]; $_[0]->{synteza} }
+sub _debugP { $_[0]->{debug}=$_[1] if defined $_[1]; $_[0]->{debug} }
+
+=head2 kompiluj
 
 =cut
 
-sub function2 {
+sub kompiluj
+{
+	my $self = shift;
+	#wykonanie analiz, obsluga wyjatkow
+	eval {
+		$self->_leksykaP->analizuj();
+		$self->_syntaktykaP->analizuj( $self->_leksykaP->leksemyP() );
+		$self->_semantykaP( $self->_syntaktykaP->drzewoP() );
+		print "SuccesFull\n";
+	};
+	if($@) {
+		print "EXEPTIONS:\n";
+		foreach my $err ($@) {
+			print "EXCEPTION $err\n";
+		}
+	}
 }
 
 =head1 AUTHOR
