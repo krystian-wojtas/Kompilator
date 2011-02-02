@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SVG Tree Drawer
+Copyright (C) 2004 Weston Ruter
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will core useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+<g><text y="20px" x="1131.49px">program</text><line/><g><text y="60px" x="753.215px">deklaracjeOpcj</text><line x2="753.215px" y2="40px" x1="1131.4875px" y1="25px"/><g><text y="100px" x="479.4px">deklaracja</text><line x2="479.4px" y2="80px" x1="753.2149999999999px" y1="65px"/><g><text y="140px" x="88.2333px">var</text><line x2="88.2333px" y2="120px" x1="479.40015px" y1="105px"/></g><g><text y="140px" x="322.934px">nazwy</text><line x2="322.934px" y2="120px" x1="479.40015px" y1="105px"/><g><text y="180px" x="244.7px">zmD_nazwa</text><line x2="244.7px" y2="160px" x1="322.9335px" y1="145px"/><g><text y="220px" x="244.7px">zm1</text><line x2="244.7px" y2="200px" x1="244.7px" y1="185px"/></g></g><g><text y="180px" x="401.167px">nazwyOpcj</text><line x2="401.167px" y2="160px" x1="322.9335px" y1="145px"/><g><text y="220px" x="401.167px">EPSILON</text><line x2="401.167px" y2="200px" x1="401.167px" y1="185px"/></g></g></g><g><text y="140px" x="557.633px">:</text><line x2="557.633px" y2="120px" x1="479.40015px" y1="105px"/></g><g><text y="140px" x="714.1px">zmD_typ</text><line x2="714.1px" y2="120px" x1="479.40015px" y1="105px"/><g><text y="180px" x="714.1px">float</text><line x2="714.1px" y2="160px" x1="714.1px" y1="145px"/></g></g><g><text y="140px" x="870.567px">;</text><line x2="870.567px" y2="120px" x1="479.40015px" y1="105px"/></g></g><g><text y="100px" x="1027.03px">deklaracjeOpcj</text><line x2="1027.03px" y2="80px" x1="753.2149999999999px" y1="65px"/><g><text y="140px" x="1027.03px">EPSILON</text><line x2="1027.03px" y2="120px" x1="1027.03px" y1="105px"/></g></g></g><g><text y="60px" x="1182.02px">proceduryOpcj</text><line x2="1182.02px" y2="40px" x1="1131.4875px" y1="25px"/><g><text y="100px" x="1182.02px">EPSILON</text><line x2="1182.02px" y2="80px" x1="1182.02px" y1="65px"/></g></g><g><text y="60px" x="1306.59px">start</text><line x2="1306.59px" y2="40px" x1="1131.4875px" y1="25px"/></g><g><text y="60px" x="1408.18px">instrukcje</text><line x2="1408.18px" y2="40px" x1="1131.4875px" y1="25px"/><g><text y="100px" x="1408.18px">EPSILON</text><line x2="1408.18px" y2="80px" x1="1408.18px" y1="65px"/></g></g><g><text y="60px" x="1509.76px">end</text><line x2="1509.76px" y2="40px" x1="1131.4875px" y1="25px"/></g></g>
+</svg>

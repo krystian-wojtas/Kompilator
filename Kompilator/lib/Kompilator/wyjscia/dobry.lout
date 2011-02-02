@@ -1,0 +1,1254 @@
+ROZPOZNANE LEKSEMY
+Leksem
+slowo:	var
+linia:	1
+pocz:	0
+prod:	VAR
+opis:	slowo kluczowe: var
+
+Leksem
+slowo:	zm1
+linia:	1
+pocz:	4
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	,
+linia:	1
+pocz:	7
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	zm2
+linia:	1
+pocz:	8
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	1
+pocz:	11
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	1
+pocz:	12
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	;
+linia:	1
+pocz:	19
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	var
+linia:	2
+pocz:	1
+prod:	VAR
+opis:	slowo kluczowe: var
+
+Leksem
+slowo:	zm3
+linia:	2
+pocz:	5
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	2
+pocz:	8
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	float
+linia:	2
+pocz:	9
+prod:	FLOAT
+opis:	typ danych: float
+
+Leksem
+slowo:	;
+linia:	2
+pocz:	14
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	var
+linia:	3
+pocz:	0
+prod:	VAR
+opis:	slowo kluczowe: var
+
+Leksem
+slowo:	napis
+linia:	3
+pocz:	4
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	3
+pocz:	10
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	string
+linia:	4
+pocz:	0
+prod:	STRING
+opis:	typ danych: string
+
+Leksem
+slowo:	;
+linia:	4
+pocz:	6
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	proc
+linia:	5
+pocz:	0
+prod:	PROC
+opis:	slowo kluczowe: proc
+
+Leksem
+slowo:	dodawanie
+linia:	5
+pocz:	5
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	(
+linia:	5
+pocz:	14
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm1
+linia:	5
+pocz:	15
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	5
+pocz:	18
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	5
+pocz:	19
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	,
+linia:	5
+pocz:	26
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	zm2
+linia:	5
+pocz:	27
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	5
+pocz:	30
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	5
+pocz:	31
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	)
+linia:	5
+pocz:	38
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	:
+linia:	5
+pocz:	40
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	5
+pocz:	42
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	begin
+linia:	6
+pocz:	0
+prod:	BEGIN
+opis:	slowo kluczowe: begin
+
+Leksem
+slowo:	var
+linia:	7
+pocz:	1
+prod:	VAR
+opis:	slowo kluczowe: var
+
+Leksem
+slowo:	zm4
+linia:	7
+pocz:	5
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	7
+pocz:	9
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	7
+pocz:	11
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	;
+linia:	7
+pocz:	18
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	block
+linia:	8
+pocz:	1
+prod:	BLOCK
+opis:	slowo kluczowe: block
+
+Leksem
+slowo:	begin
+linia:	9
+pocz:	1
+prod:	BEGIN
+opis:	slowo kluczowe: begin
+
+Leksem
+slowo:	var
+linia:	10
+pocz:	2
+prod:	VAR
+opis:	slowo kluczowe: var
+
+Leksem
+slowo:	zm4
+linia:	10
+pocz:	6
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	10
+pocz:	10
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	string
+linia:	10
+pocz:	12
+prod:	STRING
+opis:	typ danych: string
+
+Leksem
+slowo:	;
+linia:	10
+pocz:	18
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	zm4
+linia:	11
+pocz:	2
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	11
+pocz:	6
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	"Jestem w dodawaniu"
+linia:	11
+pocz:	8
+prod:	LZNAKOWY
+opis:	literal znakowy
+
+Leksem
+slowo:	;
+linia:	11
+pocz:	28
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	end
+linia:	12
+pocz:	1
+prod:	END
+opis:	slowo kluczowe: end
+
+Leksem
+slowo:	zm4
+linia:	13
+pocz:	1
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	13
+pocz:	5
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	zm1
+linia:	13
+pocz:	7
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	+
+linia:	13
+pocz:	10
+prod:	PLUSM
+opis:	operacja arytmetyczna: +-
+
+Leksem
+slowo:	zm2
+linia:	13
+pocz:	11
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	;
+linia:	13
+pocz:	14
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	dodawanie
+linia:	14
+pocz:	1
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	14
+pocz:	11
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	zm4
+linia:	14
+pocz:	13
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	;
+linia:	14
+pocz:	16
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	end
+linia:	15
+pocz:	0
+prod:	END
+opis:	slowo kluczowe: end
+
+Leksem
+slowo:	proc
+linia:	16
+pocz:	0
+prod:	PROC
+opis:	slowo kluczowe: proc
+
+Leksem
+slowo:	dodawanie2
+linia:	16
+pocz:	5
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	(
+linia:	16
+pocz:	15
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm1
+linia:	16
+pocz:	16
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	16
+pocz:	19
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	16
+pocz:	20
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	,
+linia:	16
+pocz:	27
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	zm2
+linia:	16
+pocz:	28
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	:
+linia:	16
+pocz:	31
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	16
+pocz:	32
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	)
+linia:	16
+pocz:	39
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	:
+linia:	16
+pocz:	41
+prod:	DWUKROPEK
+opis:	separatory: :
+
+Leksem
+slowo:	integer
+linia:	16
+pocz:	43
+prod:	INTEGER
+opis:	typ danych: integer
+
+Leksem
+slowo:	begin
+linia:	17
+pocz:	0
+prod:	BEGIN
+opis:	slowo kluczowe: begin
+
+Leksem
+slowo:	dodawanie2
+linia:	18
+pocz:	1
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	18
+pocz:	12
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	-
+linia:	18
+pocz:	14
+prod:	PLUSM
+opis:	operacja arytmetyczna: +-
+
+Leksem
+slowo:	zm1
+linia:	18
+pocz:	16
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	+
+linia:	18
+pocz:	20
+prod:	PLUSM
+opis:	operacja arytmetyczna: +-
+
+Leksem
+slowo:	zm2
+linia:	18
+pocz:	22
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	;
+linia:	18
+pocz:	25
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	end
+linia:	19
+pocz:	0
+prod:	END
+opis:	slowo kluczowe: end
+
+Leksem
+slowo:	start
+linia:	20
+pocz:	0
+prod:	START
+opis:	slowo kluczowe: start
+
+Leksem
+slowo:	zm1
+linia:	21
+pocz:	1
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	21
+pocz:	5
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	1
+linia:	21
+pocz:	7
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	;
+linia:	21
+pocz:	8
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	zm2
+linia:	22
+pocz:	1
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	22
+pocz:	5
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	12
+linia:	22
+pocz:	7
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	;
+linia:	22
+pocz:	9
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	zm3
+linia:	23
+pocz:	1
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	23
+pocz:	5
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	15
+linia:	23
+pocz:	7
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	;
+linia:	23
+pocz:	9
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	while
+linia:	24
+pocz:	1
+prod:	WHILE
+opis:	slowo kluczowe: while
+
+Leksem
+slowo:	(
+linia:	24
+pocz:	6
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm1
+linia:	24
+pocz:	7
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	<=
+linia:	24
+pocz:	11
+prod:	ZALEZNOSC
+opis:	porowanie
+
+Leksem
+slowo:	10
+linia:	24
+pocz:	14
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	)
+linia:	24
+pocz:	16
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	begin
+linia:	25
+pocz:	2
+prod:	BEGIN
+opis:	slowo kluczowe: begin
+
+Leksem
+slowo:	if
+linia:	26
+pocz:	2
+prod:	IF
+opis:	slowo kluczowe: if
+
+Leksem
+slowo:	(
+linia:	26
+pocz:	5
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm2
+linia:	26
+pocz:	6
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	<
+linia:	26
+pocz:	10
+prod:	ZALEZNOSC
+opis:	porowanie
+
+Leksem
+slowo:	zm3
+linia:	26
+pocz:	12
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	)
+linia:	26
+pocz:	15
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	begin
+linia:	27
+pocz:	2
+prod:	BEGIN
+opis:	slowo kluczowe: begin
+
+Leksem
+slowo:	zm2
+linia:	28
+pocz:	3
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	28
+pocz:	7
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	call
+linia:	28
+pocz:	9
+prod:	CALL
+opis:	slowo kluczowe: call
+
+Leksem
+slowo:	dodawanie
+linia:	28
+pocz:	14
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	(
+linia:	28
+pocz:	23
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm2
+linia:	28
+pocz:	24
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	,
+linia:	28
+pocz:	27
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	1
+linia:	28
+pocz:	28
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	)
+linia:	28
+pocz:	29
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	28
+pocz:	30
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	end
+linia:	29
+pocz:	2
+prod:	END
+opis:	slowo kluczowe: end
+
+Leksem
+slowo:	if
+linia:	30
+pocz:	2
+prod:	IF
+opis:	slowo kluczowe: if
+
+Leksem
+slowo:	(
+linia:	30
+pocz:	5
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm2
+linia:	30
+pocz:	6
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	>
+linia:	30
+pocz:	10
+prod:	ZALEZNOSC
+opis:	porowanie
+
+Leksem
+slowo:	zm3
+linia:	30
+pocz:	12
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	or
+linia:	30
+pocz:	16
+prod:	OR
+opis:	operacja logiczna: or
+
+Leksem
+slowo:	zm3
+linia:	30
+pocz:	19
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	==
+linia:	30
+pocz:	23
+prod:	ZALEZNOSC
+opis:	porowanie
+
+Leksem
+slowo:	zm2
+linia:	30
+pocz:	26
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	)
+linia:	30
+pocz:	29
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	zm3
+linia:	31
+pocz:	3
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	31
+pocz:	7
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	call
+linia:	31
+pocz:	8
+prod:	CALL
+opis:	slowo kluczowe: call
+
+Leksem
+slowo:	dodawanie
+linia:	31
+pocz:	13
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	(
+linia:	31
+pocz:	22
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm3
+linia:	31
+pocz:	23
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	,
+linia:	31
+pocz:	26
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	1
+linia:	31
+pocz:	27
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	)
+linia:	31
+pocz:	28
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	31
+pocz:	29
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	zm1
+linia:	32
+pocz:	2
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	=
+linia:	32
+pocz:	5
+prod:	ROWNE
+opis:	operacja przypisania: =
+
+Leksem
+slowo:	call
+linia:	32
+pocz:	7
+prod:	CALL
+opis:	slowo kluczowe: call
+
+Leksem
+slowo:	dodawanie
+linia:	32
+pocz:	12
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	(
+linia:	32
+pocz:	21
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm1
+linia:	32
+pocz:	22
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	,
+linia:	32
+pocz:	25
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	1
+linia:	32
+pocz:	26
+prod:	LICZBAINT
+opis:	liczba staloprzecinkowa
+
+Leksem
+slowo:	)
+linia:	32
+pocz:	27
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	32
+pocz:	28
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	end
+linia:	33
+pocz:	1
+prod:	END
+opis:	slowo kluczowe: end
+
+Leksem
+slowo:	write
+linia:	34
+pocz:	1
+prod:	WRITE
+opis:	slowo kluczowe: write
+
+Leksem
+slowo:	(
+linia:	34
+pocz:	6
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	"To jest wartosc wyniku: "
+linia:	34
+pocz:	7
+prod:	LZNAKOWY
+opis:	literal znakowy
+
+Leksem
+slowo:	)
+linia:	34
+pocz:	33
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	34
+pocz:	34
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	write
+linia:	35
+pocz:	1
+prod:	WRITE
+opis:	slowo kluczowe: write
+
+Leksem
+slowo:	(
+linia:	35
+pocz:	6
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	call
+linia:	35
+pocz:	7
+prod:	CALL
+opis:	slowo kluczowe: call
+
+Leksem
+slowo:	dodawanie2
+linia:	35
+pocz:	12
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	(
+linia:	35
+pocz:	22
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	zm2
+linia:	35
+pocz:	23
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	,
+linia:	35
+pocz:	26
+prod:	PRZECINEK
+opis:	separatory: ,
+
+Leksem
+slowo:	zm3
+linia:	35
+pocz:	27
+prod:	NAZWA
+opis:	nazwa wlasna
+
+Leksem
+slowo:	)
+linia:	35
+pocz:	30
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	)
+linia:	35
+pocz:	31
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	35
+pocz:	32
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	write
+linia:	36
+pocz:	1
+prod:	WRITE
+opis:	slowo kluczowe: write
+
+Leksem
+slowo:	(
+linia:	36
+pocz:	6
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	"A to wartosc pierwszej operacji:"
+linia:	36
+pocz:	7
+prod:	LZNAKOWY
+opis:	literal znakowy
+
+Leksem
+slowo:	)
+linia:	36
+pocz:	41
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	36
+pocz:	42
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	write
+linia:	37
+pocz:	1
+prod:	WRITE
+opis:	slowo kluczowe: write
+
+Leksem
+slowo:	(
+linia:	37
+pocz:	6
+prod:	NAWOO
+opis:	separatory: (
+
+Leksem
+slowo:	true
+linia:	37
+pocz:	7
+prod:	LOGIKA
+opis:	wyrazenie logiczne
+
+Leksem
+slowo:	and
+linia:	37
+pocz:	12
+prod:	AND
+opis:	operacja logiczna: and
+
+Leksem
+slowo:	false
+linia:	37
+pocz:	16
+prod:	LOGIKA
+opis:	wyrazenie logiczne
+
+Leksem
+slowo:	)
+linia:	37
+pocz:	21
+prod:	NAWOZ
+opis:	separatory: )
+
+Leksem
+slowo:	;
+linia:	37
+pocz:	22
+prod:	SREDNIK
+opis:	separatory: ;
+
+Leksem
+slowo:	end
+linia:	38
+pocz:	0
+prod:	END
+opis:	slowo kluczowe: end
+

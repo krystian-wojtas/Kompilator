@@ -1,0 +1,1687 @@
+produkcja program
+ produkcja deklaracjeOpcj
+  produkcja deklaracja
+   zawieszam "var" rodzaj 0
+   produkcja nazwy
+    produkcja zmD_nazwa
+     zawieszam "zm1" rodzaj 0
+    zamykam produkcje zmD_nazwa
+    produkcja nazwyOpcj
+     zawieszam "," rodzaj 0
+     produkcja nazwy
+      produkcja zmD_nazwa
+       zawieszam "zm2" rodzaj 0
+      zamykam produkcje zmD_nazwa
+      produkcja nazwyOpcj
+       zawieszam epsilon
+      zamykam produkcje nazwyOpcj
+     zamykam produkcje nazwy
+     produkcja nazwyOpcj
+      zawieszam epsilon
+     zamykam produkcje nazwyOpcj
+    zamykam produkcje nazwyOpcj
+   zamykam produkcje nazwy
+   zawieszam ":" rodzaj 0
+   produkcja zmD_typ
+    zawieszam "integer" rodzaj 0
+   zamykam produkcje zmD_typ
+   zawieszam ";" rodzaj 0
+  zamykam produkcje deklaracja
+  produkcja deklaracjeOpcj
+   produkcja deklaracja
+    zawieszam "var" rodzaj 0
+    produkcja nazwy
+     produkcja zmD_nazwa
+      zawieszam "zm3" rodzaj 0
+     zamykam produkcje zmD_nazwa
+     produkcja nazwyOpcj
+      zawieszam epsilon
+     zamykam produkcje nazwyOpcj
+    zamykam produkcje nazwy
+    zawieszam ":" rodzaj 0
+    produkcja zmD_typ
+     zawieszam "float" rodzaj 0
+    zamykam produkcje zmD_typ
+    zawieszam ";" rodzaj 0
+   zamykam produkcje deklaracja
+   produkcja deklaracjeOpcj
+    produkcja deklaracja
+     zawieszam "var" rodzaj 0
+     produkcja nazwy
+      produkcja zmD_nazwa
+       zawieszam "napis" rodzaj 0
+      zamykam produkcje zmD_nazwa
+      produkcja nazwyOpcj
+       zawieszam epsilon
+      zamykam produkcje nazwyOpcj
+     zamykam produkcje nazwy
+     zawieszam ":" rodzaj 0
+     produkcja zmD_typ
+      zawieszam "string" rodzaj 0
+     zamykam produkcje zmD_typ
+     zawieszam ";" rodzaj 0
+    zamykam produkcje deklaracja
+    produkcja deklaracjeOpcj
+     zawieszam epsilon
+    zamykam produkcje deklaracjeOpcj
+   zamykam produkcje deklaracjeOpcj
+  zamykam produkcje deklaracjeOpcj
+ zamykam produkcje deklaracjeOpcj
+ produkcja proceduryOpcj
+  produkcja procedura
+   zawieszam "proc" rodzaj 0
+   produkcja prD_nazwa
+    zawieszam "dodawanie" rodzaj 0
+   zamykam produkcje prD_nazwa
+   zawieszam "(" rodzaj 0
+   produkcja parametryOpcj
+    produkcja parametr
+     produkcja zmD_nazwa
+      zawieszam "zm1" rodzaj 0
+     zamykam produkcje zmD_nazwa
+     zawieszam ":" rodzaj 0
+     produkcja zmD_typ
+      zawieszam "integer" rodzaj 0
+     zamykam produkcje zmD_typ
+    zamykam produkcje parametr
+    produkcja parametryOpcjPrzec
+     zawieszam "," rodzaj 0
+     produkcja parametr
+      produkcja zmD_nazwa
+       zawieszam "zm2" rodzaj 0
+      zamykam produkcje zmD_nazwa
+      zawieszam ":" rodzaj 0
+      produkcja zmD_typ
+       zawieszam "integer" rodzaj 0
+      zamykam produkcje zmD_typ
+     zamykam produkcje parametr
+     produkcja parametryOpcjPrzec
+      zawieszam epsilon
+     zamykam produkcje parametryOpcjPrzec
+    zamykam produkcje parametryOpcjPrzec
+   zamykam produkcje parametryOpcj
+   zawieszam ")" rodzaj 0
+   produkcja typzwracanyprocOpcj
+    zawieszam ":" rodzaj 0
+    produkcja prD_typ
+     zawieszam "integer" rodzaj 0
+    zamykam produkcje prD_typ
+   zamykam produkcje typzwracanyprocOpcj
+   zawieszam "begin" rodzaj 0
+   produkcja deklaracjeOpcj
+    produkcja deklaracja
+     zawieszam "var" rodzaj 0
+     produkcja nazwy
+      produkcja zmD_nazwa
+       zawieszam "zm4" rodzaj 0
+      zamykam produkcje zmD_nazwa
+      produkcja nazwyOpcj
+       zawieszam epsilon
+      zamykam produkcje nazwyOpcj
+     zamykam produkcje nazwy
+     zawieszam ":" rodzaj 0
+     produkcja zmD_typ
+      zawieszam "integer" rodzaj 0
+     zamykam produkcje zmD_typ
+     zawieszam ";" rodzaj 0
+    zamykam produkcje deklaracja
+    produkcja deklaracjeOpcj
+     zawieszam epsilon
+    zamykam produkcje deklaracjeOpcj
+   zamykam produkcje deklaracjeOpcj
+   produkcja instrukcje
+    produkcja instrukcja
+     produkcja typinstrukcji
+      produkcja blokD
+       zawieszam "block" rodzaj 0
+       zawieszam "begin" rodzaj 0
+       produkcja deklaracjeOpcj
+        produkcja deklaracja
+         zawieszam "var" rodzaj 0
+         produkcja nazwy
+          produkcja zmD_nazwa
+           zawieszam "zm4" rodzaj 0
+          zamykam produkcje zmD_nazwa
+          produkcja nazwyOpcj
+           zawieszam epsilon
+          zamykam produkcje nazwyOpcj
+         zamykam produkcje nazwy
+         zawieszam ":" rodzaj 0
+         produkcja zmD_typ
+          zawieszam "string" rodzaj 0
+         zamykam produkcje zmD_typ
+         zawieszam ";" rodzaj 0
+        zamykam produkcje deklaracja
+        produkcja deklaracjeOpcj
+         zawieszam epsilon
+        zamykam produkcje deklaracjeOpcj
+       zamykam produkcje deklaracjeOpcj
+       produkcja instrukcje
+        produkcja instrukcja
+         produkcja typinstrukcji
+          produkcja przypisanieD
+           produkcja tnazwa
+            produkcja zmW_nazwa
+             zawieszam "zm4" rodzaj 0
+            zamykam produkcje zmW_nazwa
+            produkcja dereferencjaOpcj
+             zawieszam epsilon
+            zamykam produkcje dereferencjaOpcj
+           zamykam produkcje tnazwa
+           produkcja rowne
+            zawieszam "=" rodzaj 0
+           zamykam produkcje rowne
+           produkcja lubwyrazenie
+            produkcja iwyrazenie
+             produkcja wyrazenie
+              produkcja prostewyrazenie
+               produkcja dzialanie
+                produkcja plusm1Opcj
+                 zawieszam epsilon
+                zamykam produkcje plusm1Opcj
+                produkcja czynnik
+                 produkcja lznakowy
+                  zawieszam ""Jestem w dodawaniu"" rodzaj 0
+                 zamykam produkcje lznakowy
+                zamykam produkcje czynnik
+                produkcja czynnikOpcj
+                 zawieszam epsilon
+                zamykam produkcje czynnikOpcj
+               zamykam produkcje dzialanie
+               produkcja dzialanieOpcj
+                zawieszam epsilon
+               zamykam produkcje dzialanieOpcj
+              zamykam produkcje prostewyrazenie
+              produkcja zaleznoscOpcj
+               zawieszam epsilon
+              zamykam produkcje zaleznoscOpcj
+             zamykam produkcje wyrazenie
+             produkcja iwyrazenieOpcj
+              zawieszam epsilon
+             zamykam produkcje iwyrazenieOpcj
+            zamykam produkcje iwyrazenie
+            produkcja lubwyrazenieOpcj
+             zawieszam epsilon
+            zamykam produkcje lubwyrazenieOpcj
+           zamykam produkcje lubwyrazenie
+          zamykam produkcje przypisanieD
+         zamykam produkcje typinstrukcji
+         zawieszam ";" rodzaj 0
+        zamykam produkcje instrukcja
+        produkcja instrukcje
+         zawieszam epsilon
+        zamykam produkcje instrukcje
+       zamykam produkcje instrukcje
+       zawieszam "end" rodzaj 0
+      zamykam produkcje blokD
+     zamykam produkcje typinstrukcji
+    zamykam produkcje instrukcja
+    produkcja instrukcje
+     produkcja instrukcja
+      produkcja typinstrukcji
+       produkcja przypisanieD
+        produkcja tnazwa
+         produkcja zmW_nazwa
+          zawieszam "zm4" rodzaj 0
+         zamykam produkcje zmW_nazwa
+         produkcja dereferencjaOpcj
+          zawieszam epsilon
+         zamykam produkcje dereferencjaOpcj
+        zamykam produkcje tnazwa
+        produkcja rowne
+         zawieszam "=" rodzaj 0
+        zamykam produkcje rowne
+        produkcja lubwyrazenie
+         produkcja iwyrazenie
+          produkcja wyrazenie
+           produkcja prostewyrazenie
+            produkcja dzialanie
+             produkcja plusm1Opcj
+              zawieszam epsilon
+             zamykam produkcje plusm1Opcj
+             produkcja czynnik
+              produkcja zmW_nazwa
+               zawieszam "zm1" rodzaj 0
+              zamykam produkcje zmW_nazwa
+              produkcja dereferencjaOpcj
+               zawieszam epsilon
+              zamykam produkcje dereferencjaOpcj
+             zamykam produkcje czynnik
+             produkcja czynnikOpcj
+              zawieszam epsilon
+             zamykam produkcje czynnikOpcj
+            zamykam produkcje dzialanie
+            produkcja dzialanieOpcj
+             produkcja plusm2
+              produkcja plusm
+               zawieszam "+" rodzaj 0
+              zamykam produkcje plusm
+             zamykam produkcje plusm2
+             produkcja dzialanie
+              produkcja plusm1Opcj
+               zawieszam epsilon
+              zamykam produkcje plusm1Opcj
+              produkcja czynnik
+               produkcja zmW_nazwa
+                zawieszam "zm2" rodzaj 0
+               zamykam produkcje zmW_nazwa
+               produkcja dereferencjaOpcj
+                zawieszam epsilon
+               zamykam produkcje dereferencjaOpcj
+              zamykam produkcje czynnik
+              produkcja czynnikOpcj
+               zawieszam epsilon
+              zamykam produkcje czynnikOpcj
+             zamykam produkcje dzialanie
+             produkcja dzialanieOpcj
+              zawieszam epsilon
+             zamykam produkcje dzialanieOpcj
+            zamykam produkcje dzialanieOpcj
+           zamykam produkcje prostewyrazenie
+           produkcja zaleznoscOpcj
+            zawieszam epsilon
+           zamykam produkcje zaleznoscOpcj
+          zamykam produkcje wyrazenie
+          produkcja iwyrazenieOpcj
+           zawieszam epsilon
+          zamykam produkcje iwyrazenieOpcj
+         zamykam produkcje iwyrazenie
+         produkcja lubwyrazenieOpcj
+          zawieszam epsilon
+         zamykam produkcje lubwyrazenieOpcj
+        zamykam produkcje lubwyrazenie
+       zamykam produkcje przypisanieD
+      zamykam produkcje typinstrukcji
+      zawieszam ";" rodzaj 0
+     zamykam produkcje instrukcja
+     produkcja instrukcje
+      produkcja instrukcja
+       produkcja typinstrukcji
+        produkcja przypisanieD
+         produkcja tnazwa
+          produkcja zmW_nazwa
+           zawieszam "dodawanie" rodzaj 0
+          zamykam produkcje zmW_nazwa
+          produkcja dereferencjaOpcj
+           zawieszam epsilon
+          zamykam produkcje dereferencjaOpcj
+         zamykam produkcje tnazwa
+         produkcja rowne
+          zawieszam "=" rodzaj 0
+         zamykam produkcje rowne
+         produkcja lubwyrazenie
+          produkcja iwyrazenie
+           produkcja wyrazenie
+            produkcja prostewyrazenie
+             produkcja dzialanie
+              produkcja plusm1Opcj
+               zawieszam epsilon
+              zamykam produkcje plusm1Opcj
+              produkcja czynnik
+               produkcja zmW_nazwa
+                zawieszam "zm4" rodzaj 0
+               zamykam produkcje zmW_nazwa
+               produkcja dereferencjaOpcj
+                zawieszam epsilon
+               zamykam produkcje dereferencjaOpcj
+              zamykam produkcje czynnik
+              produkcja czynnikOpcj
+               zawieszam epsilon
+              zamykam produkcje czynnikOpcj
+             zamykam produkcje dzialanie
+             produkcja dzialanieOpcj
+              zawieszam epsilon
+             zamykam produkcje dzialanieOpcj
+            zamykam produkcje prostewyrazenie
+            produkcja zaleznoscOpcj
+             zawieszam epsilon
+            zamykam produkcje zaleznoscOpcj
+           zamykam produkcje wyrazenie
+           produkcja iwyrazenieOpcj
+            zawieszam epsilon
+           zamykam produkcje iwyrazenieOpcj
+          zamykam produkcje iwyrazenie
+          produkcja lubwyrazenieOpcj
+           zawieszam epsilon
+          zamykam produkcje lubwyrazenieOpcj
+         zamykam produkcje lubwyrazenie
+        zamykam produkcje przypisanieD
+       zamykam produkcje typinstrukcji
+       zawieszam ";" rodzaj 0
+      zamykam produkcje instrukcja
+      produkcja instrukcje
+       zawieszam epsilon
+      zamykam produkcje instrukcje
+     zamykam produkcje instrukcje
+    zamykam produkcje instrukcje
+   zamykam produkcje instrukcje
+   zawieszam "end" rodzaj 0
+  zamykam produkcje procedura
+  produkcja proceduryOpcj
+   produkcja procedura
+    zawieszam "proc" rodzaj 0
+    produkcja prD_nazwa
+     zawieszam "dodawanie2" rodzaj 0
+    zamykam produkcje prD_nazwa
+    zawieszam "(" rodzaj 0
+    produkcja parametryOpcj
+     produkcja parametr
+      produkcja zmD_nazwa
+       zawieszam "zm1" rodzaj 0
+      zamykam produkcje zmD_nazwa
+      zawieszam ":" rodzaj 0
+      produkcja zmD_typ
+       zawieszam "integer" rodzaj 0
+      zamykam produkcje zmD_typ
+     zamykam produkcje parametr
+     produkcja parametryOpcjPrzec
+      zawieszam "," rodzaj 0
+      produkcja parametr
+       produkcja zmD_nazwa
+        zawieszam "zm2" rodzaj 0
+       zamykam produkcje zmD_nazwa
+       zawieszam ":" rodzaj 0
+       produkcja zmD_typ
+        zawieszam "integer" rodzaj 0
+       zamykam produkcje zmD_typ
+      zamykam produkcje parametr
+      produkcja parametryOpcjPrzec
+       zawieszam epsilon
+      zamykam produkcje parametryOpcjPrzec
+     zamykam produkcje parametryOpcjPrzec
+    zamykam produkcje parametryOpcj
+    zawieszam ")" rodzaj 0
+    produkcja typzwracanyprocOpcj
+     zawieszam ":" rodzaj 0
+     produkcja prD_typ
+      zawieszam "integer" rodzaj 0
+     zamykam produkcje prD_typ
+    zamykam produkcje typzwracanyprocOpcj
+    zawieszam "begin" rodzaj 0
+    produkcja deklaracjeOpcj
+     zawieszam epsilon
+    zamykam produkcje deklaracjeOpcj
+    produkcja instrukcje
+     produkcja instrukcja
+      produkcja typinstrukcji
+       produkcja przypisanieD
+        produkcja tnazwa
+         produkcja zmW_nazwa
+          zawieszam "dodawanie2" rodzaj 0
+         zamykam produkcje zmW_nazwa
+         produkcja dereferencjaOpcj
+          zawieszam epsilon
+         zamykam produkcje dereferencjaOpcj
+        zamykam produkcje tnazwa
+        produkcja rowne
+         zawieszam "=" rodzaj 0
+        zamykam produkcje rowne
+        produkcja lubwyrazenie
+         produkcja iwyrazenie
+          produkcja wyrazenie
+           produkcja prostewyrazenie
+            produkcja dzialanie
+             produkcja plusm1Opcj
+              produkcja plusm1
+               produkcja plusm
+                zawieszam "-" rodzaj 0
+               zamykam produkcje plusm
+              zamykam produkcje plusm1
+              produkcja plusm1Opcj
+               zawieszam epsilon
+              zamykam produkcje plusm1Opcj
+             zamykam produkcje plusm1Opcj
+             produkcja czynnik
+              produkcja zmW_nazwa
+               zawieszam "zm1" rodzaj 0
+              zamykam produkcje zmW_nazwa
+              produkcja dereferencjaOpcj
+               zawieszam epsilon
+              zamykam produkcje dereferencjaOpcj
+             zamykam produkcje czynnik
+             produkcja czynnikOpcj
+              zawieszam epsilon
+             zamykam produkcje czynnikOpcj
+            zamykam produkcje dzialanie
+            produkcja dzialanieOpcj
+             produkcja plusm2
+              produkcja plusm
+               zawieszam "+" rodzaj 0
+              zamykam produkcje plusm
+             zamykam produkcje plusm2
+             produkcja dzialanie
+              produkcja plusm1Opcj
+               zawieszam epsilon
+              zamykam produkcje plusm1Opcj
+              produkcja czynnik
+               produkcja zmW_nazwa
+                zawieszam "zm2" rodzaj 0
+               zamykam produkcje zmW_nazwa
+               produkcja dereferencjaOpcj
+                zawieszam epsilon
+               zamykam produkcje dereferencjaOpcj
+              zamykam produkcje czynnik
+              produkcja czynnikOpcj
+               zawieszam epsilon
+              zamykam produkcje czynnikOpcj
+             zamykam produkcje dzialanie
+             produkcja dzialanieOpcj
+              zawieszam epsilon
+             zamykam produkcje dzialanieOpcj
+            zamykam produkcje dzialanieOpcj
+           zamykam produkcje prostewyrazenie
+           produkcja zaleznoscOpcj
+            zawieszam epsilon
+           zamykam produkcje zaleznoscOpcj
+          zamykam produkcje wyrazenie
+          produkcja iwyrazenieOpcj
+           zawieszam epsilon
+          zamykam produkcje iwyrazenieOpcj
+         zamykam produkcje iwyrazenie
+         produkcja lubwyrazenieOpcj
+          zawieszam epsilon
+         zamykam produkcje lubwyrazenieOpcj
+        zamykam produkcje lubwyrazenie
+       zamykam produkcje przypisanieD
+      zamykam produkcje typinstrukcji
+      zawieszam ";" rodzaj 0
+     zamykam produkcje instrukcja
+     produkcja instrukcje
+      zawieszam epsilon
+     zamykam produkcje instrukcje
+    zamykam produkcje instrukcje
+    zawieszam "end" rodzaj 0
+   zamykam produkcje procedura
+   produkcja proceduryOpcj
+    zawieszam epsilon
+   zamykam produkcje proceduryOpcj
+  zamykam produkcje proceduryOpcj
+ zamykam produkcje proceduryOpcj
+ zawieszam "start" rodzaj 0
+ produkcja instrukcje
+  produkcja instrukcja
+   produkcja typinstrukcji
+    produkcja przypisanieD
+     produkcja tnazwa
+      produkcja zmW_nazwa
+       zawieszam "zm1" rodzaj 0
+      zamykam produkcje zmW_nazwa
+      produkcja dereferencjaOpcj
+       zawieszam epsilon
+      zamykam produkcje dereferencjaOpcj
+     zamykam produkcje tnazwa
+     produkcja rowne
+      zawieszam "=" rodzaj 0
+     zamykam produkcje rowne
+     produkcja lubwyrazenie
+      produkcja iwyrazenie
+       produkcja wyrazenie
+        produkcja prostewyrazenie
+         produkcja dzialanie
+          produkcja plusm1Opcj
+           zawieszam epsilon
+          zamykam produkcje plusm1Opcj
+          produkcja czynnik
+           produkcja liczbaint
+            zawieszam "1" rodzaj 0
+           zamykam produkcje liczbaint
+          zamykam produkcje czynnik
+          produkcja czynnikOpcj
+           zawieszam epsilon
+          zamykam produkcje czynnikOpcj
+         zamykam produkcje dzialanie
+         produkcja dzialanieOpcj
+          zawieszam epsilon
+         zamykam produkcje dzialanieOpcj
+        zamykam produkcje prostewyrazenie
+        produkcja zaleznoscOpcj
+         zawieszam epsilon
+        zamykam produkcje zaleznoscOpcj
+       zamykam produkcje wyrazenie
+       produkcja iwyrazenieOpcj
+        zawieszam epsilon
+       zamykam produkcje iwyrazenieOpcj
+      zamykam produkcje iwyrazenie
+      produkcja lubwyrazenieOpcj
+       zawieszam epsilon
+      zamykam produkcje lubwyrazenieOpcj
+     zamykam produkcje lubwyrazenie
+    zamykam produkcje przypisanieD
+   zamykam produkcje typinstrukcji
+   zawieszam ";" rodzaj 0
+  zamykam produkcje instrukcja
+  produkcja instrukcje
+   produkcja instrukcja
+    produkcja typinstrukcji
+     produkcja przypisanieD
+      produkcja tnazwa
+       produkcja zmW_nazwa
+        zawieszam "zm2" rodzaj 0
+       zamykam produkcje zmW_nazwa
+       produkcja dereferencjaOpcj
+        zawieszam epsilon
+       zamykam produkcje dereferencjaOpcj
+      zamykam produkcje tnazwa
+      produkcja rowne
+       zawieszam "=" rodzaj 0
+      zamykam produkcje rowne
+      produkcja lubwyrazenie
+       produkcja iwyrazenie
+        produkcja wyrazenie
+         produkcja prostewyrazenie
+          produkcja dzialanie
+           produkcja plusm1Opcj
+            zawieszam epsilon
+           zamykam produkcje plusm1Opcj
+           produkcja czynnik
+            produkcja liczbaint
+             zawieszam "12" rodzaj 0
+            zamykam produkcje liczbaint
+           zamykam produkcje czynnik
+           produkcja czynnikOpcj
+            zawieszam epsilon
+           zamykam produkcje czynnikOpcj
+          zamykam produkcje dzialanie
+          produkcja dzialanieOpcj
+           zawieszam epsilon
+          zamykam produkcje dzialanieOpcj
+         zamykam produkcje prostewyrazenie
+         produkcja zaleznoscOpcj
+          zawieszam epsilon
+         zamykam produkcje zaleznoscOpcj
+        zamykam produkcje wyrazenie
+        produkcja iwyrazenieOpcj
+         zawieszam epsilon
+        zamykam produkcje iwyrazenieOpcj
+       zamykam produkcje iwyrazenie
+       produkcja lubwyrazenieOpcj
+        zawieszam epsilon
+       zamykam produkcje lubwyrazenieOpcj
+      zamykam produkcje lubwyrazenie
+     zamykam produkcje przypisanieD
+    zamykam produkcje typinstrukcji
+    zawieszam ";" rodzaj 0
+   zamykam produkcje instrukcja
+   produkcja instrukcje
+    produkcja instrukcja
+     produkcja typinstrukcji
+      produkcja przypisanieD
+       produkcja tnazwa
+        produkcja zmW_nazwa
+         zawieszam "zm3" rodzaj 0
+        zamykam produkcje zmW_nazwa
+        produkcja dereferencjaOpcj
+         zawieszam epsilon
+        zamykam produkcje dereferencjaOpcj
+       zamykam produkcje tnazwa
+       produkcja rowne
+        zawieszam "=" rodzaj 0
+       zamykam produkcje rowne
+       produkcja lubwyrazenie
+        produkcja iwyrazenie
+         produkcja wyrazenie
+          produkcja prostewyrazenie
+           produkcja dzialanie
+            produkcja plusm1Opcj
+             zawieszam epsilon
+            zamykam produkcje plusm1Opcj
+            produkcja czynnik
+             produkcja liczbaint
+              zawieszam "15" rodzaj 0
+             zamykam produkcje liczbaint
+            zamykam produkcje czynnik
+            produkcja czynnikOpcj
+             zawieszam epsilon
+            zamykam produkcje czynnikOpcj
+           zamykam produkcje dzialanie
+           produkcja dzialanieOpcj
+            zawieszam epsilon
+           zamykam produkcje dzialanieOpcj
+          zamykam produkcje prostewyrazenie
+          produkcja zaleznoscOpcj
+           zawieszam epsilon
+          zamykam produkcje zaleznoscOpcj
+         zamykam produkcje wyrazenie
+         produkcja iwyrazenieOpcj
+          zawieszam epsilon
+         zamykam produkcje iwyrazenieOpcj
+        zamykam produkcje iwyrazenie
+        produkcja lubwyrazenieOpcj
+         zawieszam epsilon
+        zamykam produkcje lubwyrazenieOpcj
+       zamykam produkcje lubwyrazenie
+      zamykam produkcje przypisanieD
+     zamykam produkcje typinstrukcji
+     zawieszam ";" rodzaj 0
+    zamykam produkcje instrukcja
+    produkcja instrukcje
+     produkcja instrukcja
+      produkcja typinstrukcji
+       produkcja petlaD
+        zawieszam "while" rodzaj 0
+        zawieszam "(" rodzaj 0
+        produkcja lubwyrazenie
+         produkcja iwyrazenie
+          produkcja wyrazenie
+           produkcja prostewyrazenie
+            produkcja dzialanie
+             produkcja plusm1Opcj
+              zawieszam epsilon
+             zamykam produkcje plusm1Opcj
+             produkcja czynnik
+              produkcja zmW_nazwa
+               zawieszam "zm1" rodzaj 0
+              zamykam produkcje zmW_nazwa
+              produkcja dereferencjaOpcj
+               zawieszam epsilon
+              zamykam produkcje dereferencjaOpcj
+             zamykam produkcje czynnik
+             produkcja czynnikOpcj
+              zawieszam epsilon
+             zamykam produkcje czynnikOpcj
+            zamykam produkcje dzialanie
+            produkcja dzialanieOpcj
+             zawieszam epsilon
+            zamykam produkcje dzialanieOpcj
+           zamykam produkcje prostewyrazenie
+           produkcja zaleznoscOpcj
+            produkcja zaleznosc
+             zawieszam "<=" rodzaj 0
+            zamykam produkcje zaleznosc
+            produkcja prostewyrazenie
+             produkcja dzialanie
+              produkcja plusm1Opcj
+               zawieszam epsilon
+              zamykam produkcje plusm1Opcj
+              produkcja czynnik
+               produkcja liczbaint
+                zawieszam "10" rodzaj 0
+               zamykam produkcje liczbaint
+              zamykam produkcje czynnik
+              produkcja czynnikOpcj
+               zawieszam epsilon
+              zamykam produkcje czynnikOpcj
+             zamykam produkcje dzialanie
+             produkcja dzialanieOpcj
+              zawieszam epsilon
+             zamykam produkcje dzialanieOpcj
+            zamykam produkcje prostewyrazenie
+            produkcja zaleznoscOpcj
+             zawieszam epsilon
+            zamykam produkcje zaleznoscOpcj
+           zamykam produkcje zaleznoscOpcj
+          zamykam produkcje wyrazenie
+          produkcja iwyrazenieOpcj
+           zawieszam epsilon
+          zamykam produkcje iwyrazenieOpcj
+         zamykam produkcje iwyrazenie
+         produkcja lubwyrazenieOpcj
+          zawieszam epsilon
+         zamykam produkcje lubwyrazenieOpcj
+        zamykam produkcje lubwyrazenie
+        zawieszam ")" rodzaj 0
+        produkcja instrukcjaBlokOpcj
+         produkcja beginOpcj
+          zawieszam "begin" rodzaj 0
+         zamykam produkcje beginOpcj
+         produkcja instrukcje
+          produkcja instrukcja
+           produkcja typinstrukcji
+            produkcja warunekD
+             zawieszam "if" rodzaj 0
+             zawieszam "(" rodzaj 0
+             produkcja lubwyrazenie
+              produkcja iwyrazenie
+               produkcja wyrazenie
+                produkcja prostewyrazenie
+                 produkcja dzialanie
+                  produkcja plusm1Opcj
+                   zawieszam epsilon
+                  zamykam produkcje plusm1Opcj
+                  produkcja czynnik
+                   produkcja zmW_nazwa
+                    zawieszam "zm2" rodzaj 0
+                   zamykam produkcje zmW_nazwa
+                   produkcja dereferencjaOpcj
+                    zawieszam epsilon
+                   zamykam produkcje dereferencjaOpcj
+                  zamykam produkcje czynnik
+                  produkcja czynnikOpcj
+                   zawieszam epsilon
+                  zamykam produkcje czynnikOpcj
+                 zamykam produkcje dzialanie
+                 produkcja dzialanieOpcj
+                  zawieszam epsilon
+                 zamykam produkcje dzialanieOpcj
+                zamykam produkcje prostewyrazenie
+                produkcja zaleznoscOpcj
+                 produkcja zaleznosc
+                  zawieszam "<" rodzaj 0
+                 zamykam produkcje zaleznosc
+                 produkcja prostewyrazenie
+                  produkcja dzialanie
+                   produkcja plusm1Opcj
+                    zawieszam epsilon
+                   zamykam produkcje plusm1Opcj
+                   produkcja czynnik
+                    produkcja zmW_nazwa
+                     zawieszam "zm3" rodzaj 0
+                    zamykam produkcje zmW_nazwa
+                    produkcja dereferencjaOpcj
+                     zawieszam epsilon
+                    zamykam produkcje dereferencjaOpcj
+                   zamykam produkcje czynnik
+                   produkcja czynnikOpcj
+                    zawieszam epsilon
+                   zamykam produkcje czynnikOpcj
+                  zamykam produkcje dzialanie
+                  produkcja dzialanieOpcj
+                   zawieszam epsilon
+                  zamykam produkcje dzialanieOpcj
+                 zamykam produkcje prostewyrazenie
+                 produkcja zaleznoscOpcj
+                  zawieszam epsilon
+                 zamykam produkcje zaleznoscOpcj
+                zamykam produkcje zaleznoscOpcj
+               zamykam produkcje wyrazenie
+               produkcja iwyrazenieOpcj
+                zawieszam epsilon
+               zamykam produkcje iwyrazenieOpcj
+              zamykam produkcje iwyrazenie
+              produkcja lubwyrazenieOpcj
+               zawieszam epsilon
+              zamykam produkcje lubwyrazenieOpcj
+             zamykam produkcje lubwyrazenie
+             zawieszam ")" rodzaj 0
+             produkcja instrukcjaBlokOpcj
+              produkcja beginOpcj
+               zawieszam "begin" rodzaj 0
+              zamykam produkcje beginOpcj
+              produkcja instrukcje
+               produkcja instrukcja
+                produkcja typinstrukcji
+                 produkcja przypisanieD
+                  produkcja tnazwa
+                   produkcja zmW_nazwa
+                    zawieszam "zm2" rodzaj 0
+                   zamykam produkcje zmW_nazwa
+                   produkcja dereferencjaOpcj
+                    zawieszam epsilon
+                   zamykam produkcje dereferencjaOpcj
+                  zamykam produkcje tnazwa
+                  produkcja rowne
+                   zawieszam "=" rodzaj 0
+                  zamykam produkcje rowne
+                  produkcja lubwyrazenie
+                   produkcja iwyrazenie
+                    produkcja wyrazenie
+                     produkcja prostewyrazenie
+                      produkcja dzialanie
+                       produkcja plusm1Opcj
+                        zawieszam epsilon
+                       zamykam produkcje plusm1Opcj
+                       produkcja czynnik
+                        produkcja wywolanieD
+                         zawieszam "call" rodzaj 0
+                         produkcja prW_nazwa
+                          zawieszam "dodawanie" rodzaj 0
+                         zamykam produkcje prW_nazwa
+                         zawieszam "(" rodzaj 0
+                         produkcja pmyW
+                          produkcja pmW
+                           produkcja lubwyrazenie
+                            produkcja iwyrazenie
+                             produkcja wyrazenie
+                              produkcja prostewyrazenie
+                               produkcja dzialanie
+                                produkcja plusm1Opcj
+                                 zawieszam epsilon
+                                zamykam produkcje plusm1Opcj
+                                produkcja czynnik
+                                 produkcja zmW_nazwa
+                                  zawieszam "zm2" rodzaj 0
+                                 zamykam produkcje zmW_nazwa
+                                 produkcja dereferencjaOpcj
+                                  zawieszam epsilon
+                                 zamykam produkcje dereferencjaOpcj
+                                zamykam produkcje czynnik
+                                produkcja czynnikOpcj
+                                 zawieszam epsilon
+                                zamykam produkcje czynnikOpcj
+                               zamykam produkcje dzialanie
+                               produkcja dzialanieOpcj
+                                zawieszam epsilon
+                               zamykam produkcje dzialanieOpcj
+                              zamykam produkcje prostewyrazenie
+                              produkcja zaleznoscOpcj
+                               zawieszam epsilon
+                              zamykam produkcje zaleznoscOpcj
+                             zamykam produkcje wyrazenie
+                             produkcja iwyrazenieOpcj
+                              zawieszam epsilon
+                             zamykam produkcje iwyrazenieOpcj
+                            zamykam produkcje iwyrazenie
+                            produkcja lubwyrazenieOpcj
+                             zawieszam epsilon
+                            zamykam produkcje lubwyrazenieOpcj
+                           zamykam produkcje lubwyrazenie
+                          zamykam produkcje pmW
+                          produkcja lubwyrazenieDodOpcj
+                           zawieszam "," rodzaj 0
+                           produkcja pmW
+                            produkcja lubwyrazenie
+                             produkcja iwyrazenie
+                              produkcja wyrazenie
+                               produkcja prostewyrazenie
+                                produkcja dzialanie
+                                 produkcja plusm1Opcj
+                                  zawieszam epsilon
+                                 zamykam produkcje plusm1Opcj
+                                 produkcja czynnik
+                                  produkcja liczbaint
+                                   zawieszam "1" rodzaj 0
+                                  zamykam produkcje liczbaint
+                                 zamykam produkcje czynnik
+                                 produkcja czynnikOpcj
+                                  zawieszam epsilon
+                                 zamykam produkcje czynnikOpcj
+                                zamykam produkcje dzialanie
+                                produkcja dzialanieOpcj
+                                 zawieszam epsilon
+                                zamykam produkcje dzialanieOpcj
+                               zamykam produkcje prostewyrazenie
+                               produkcja zaleznoscOpcj
+                                zawieszam epsilon
+                               zamykam produkcje zaleznoscOpcj
+                              zamykam produkcje wyrazenie
+                              produkcja iwyrazenieOpcj
+                               zawieszam epsilon
+                              zamykam produkcje iwyrazenieOpcj
+                             zamykam produkcje iwyrazenie
+                             produkcja lubwyrazenieOpcj
+                              zawieszam epsilon
+                             zamykam produkcje lubwyrazenieOpcj
+                            zamykam produkcje lubwyrazenie
+                           zamykam produkcje pmW
+                           produkcja lubwyrazenieDodOpcj
+                            zawieszam epsilon
+                           zamykam produkcje lubwyrazenieDodOpcj
+                          zamykam produkcje lubwyrazenieDodOpcj
+                         zamykam produkcje pmyW
+                         zawieszam ")" rodzaj 0
+                        zamykam produkcje wywolanieD
+                       zamykam produkcje czynnik
+                       produkcja czynnikOpcj
+                        zawieszam epsilon
+                       zamykam produkcje czynnikOpcj
+                      zamykam produkcje dzialanie
+                      produkcja dzialanieOpcj
+                       zawieszam epsilon
+                      zamykam produkcje dzialanieOpcj
+                     zamykam produkcje prostewyrazenie
+                     produkcja zaleznoscOpcj
+                      zawieszam epsilon
+                     zamykam produkcje zaleznoscOpcj
+                    zamykam produkcje wyrazenie
+                    produkcja iwyrazenieOpcj
+                     zawieszam epsilon
+                    zamykam produkcje iwyrazenieOpcj
+                   zamykam produkcje iwyrazenie
+                   produkcja lubwyrazenieOpcj
+                    zawieszam epsilon
+                   zamykam produkcje lubwyrazenieOpcj
+                  zamykam produkcje lubwyrazenie
+                 zamykam produkcje przypisanieD
+                zamykam produkcje typinstrukcji
+                zawieszam ";" rodzaj 0
+               zamykam produkcje instrukcja
+               produkcja instrukcje
+                zawieszam epsilon
+               zamykam produkcje instrukcje
+              zamykam produkcje instrukcje
+              produkcja endOpcj
+               zawieszam "end" rodzaj 0
+              zamykam produkcje endOpcj
+             zamykam produkcje instrukcjaBlokOpcj
+            zamykam produkcje warunekD
+           zamykam produkcje typinstrukcji
+          zamykam produkcje instrukcja
+          produkcja instrukcje
+           produkcja instrukcja
+            produkcja typinstrukcji
+             produkcja warunekD
+              zawieszam "if" rodzaj 0
+              zawieszam "(" rodzaj 0
+              produkcja lubwyrazenie
+               produkcja iwyrazenie
+                produkcja wyrazenie
+                 produkcja prostewyrazenie
+                  produkcja dzialanie
+                   produkcja plusm1Opcj
+                    zawieszam epsilon
+                   zamykam produkcje plusm1Opcj
+                   produkcja czynnik
+                    produkcja zmW_nazwa
+                     zawieszam "zm2" rodzaj 0
+                    zamykam produkcje zmW_nazwa
+                    produkcja dereferencjaOpcj
+                     zawieszam epsilon
+                    zamykam produkcje dereferencjaOpcj
+                   zamykam produkcje czynnik
+                   produkcja czynnikOpcj
+                    zawieszam epsilon
+                   zamykam produkcje czynnikOpcj
+                  zamykam produkcje dzialanie
+                  produkcja dzialanieOpcj
+                   zawieszam epsilon
+                  zamykam produkcje dzialanieOpcj
+                 zamykam produkcje prostewyrazenie
+                 produkcja zaleznoscOpcj
+                  produkcja zaleznosc
+                   zawieszam ">" rodzaj 0
+                  zamykam produkcje zaleznosc
+                  produkcja prostewyrazenie
+                   produkcja dzialanie
+                    produkcja plusm1Opcj
+                     zawieszam epsilon
+                    zamykam produkcje plusm1Opcj
+                    produkcja czynnik
+                     produkcja zmW_nazwa
+                      zawieszam "zm3" rodzaj 0
+                     zamykam produkcje zmW_nazwa
+                     produkcja dereferencjaOpcj
+                      zawieszam epsilon
+                     zamykam produkcje dereferencjaOpcj
+                    zamykam produkcje czynnik
+                    produkcja czynnikOpcj
+                     zawieszam epsilon
+                    zamykam produkcje czynnikOpcj
+                   zamykam produkcje dzialanie
+                   produkcja dzialanieOpcj
+                    zawieszam epsilon
+                   zamykam produkcje dzialanieOpcj
+                  zamykam produkcje prostewyrazenie
+                  produkcja zaleznoscOpcj
+                   zawieszam epsilon
+                  zamykam produkcje zaleznoscOpcj
+                 zamykam produkcje zaleznoscOpcj
+                zamykam produkcje wyrazenie
+                produkcja iwyrazenieOpcj
+                 zawieszam epsilon
+                zamykam produkcje iwyrazenieOpcj
+               zamykam produkcje iwyrazenie
+               produkcja lubwyrazenieOpcj
+                produkcja or
+                 zawieszam "or" rodzaj 0
+                zamykam produkcje or
+                produkcja lubwyrazenie
+                 produkcja iwyrazenie
+                  produkcja wyrazenie
+                   produkcja prostewyrazenie
+                    produkcja dzialanie
+                     produkcja plusm1Opcj
+                      zawieszam epsilon
+                     zamykam produkcje plusm1Opcj
+                     produkcja czynnik
+                      produkcja zmW_nazwa
+                       zawieszam "zm3" rodzaj 0
+                      zamykam produkcje zmW_nazwa
+                      produkcja dereferencjaOpcj
+                       zawieszam epsilon
+                      zamykam produkcje dereferencjaOpcj
+                     zamykam produkcje czynnik
+                     produkcja czynnikOpcj
+                      zawieszam epsilon
+                     zamykam produkcje czynnikOpcj
+                    zamykam produkcje dzialanie
+                    produkcja dzialanieOpcj
+                     zawieszam epsilon
+                    zamykam produkcje dzialanieOpcj
+                   zamykam produkcje prostewyrazenie
+                   produkcja zaleznoscOpcj
+                    produkcja zaleznosc
+                     zawieszam "==" rodzaj 0
+                    zamykam produkcje zaleznosc
+                    produkcja prostewyrazenie
+                     produkcja dzialanie
+                      produkcja plusm1Opcj
+                       zawieszam epsilon
+                      zamykam produkcje plusm1Opcj
+                      produkcja czynnik
+                       produkcja zmW_nazwa
+                        zawieszam "zm2" rodzaj 0
+                       zamykam produkcje zmW_nazwa
+                       produkcja dereferencjaOpcj
+                        zawieszam epsilon
+                       zamykam produkcje dereferencjaOpcj
+                      zamykam produkcje czynnik
+                      produkcja czynnikOpcj
+                       zawieszam epsilon
+                      zamykam produkcje czynnikOpcj
+                     zamykam produkcje dzialanie
+                     produkcja dzialanieOpcj
+                      zawieszam epsilon
+                     zamykam produkcje dzialanieOpcj
+                    zamykam produkcje prostewyrazenie
+                    produkcja zaleznoscOpcj
+                     zawieszam epsilon
+                    zamykam produkcje zaleznoscOpcj
+                   zamykam produkcje zaleznoscOpcj
+                  zamykam produkcje wyrazenie
+                  produkcja iwyrazenieOpcj
+                   zawieszam epsilon
+                  zamykam produkcje iwyrazenieOpcj
+                 zamykam produkcje iwyrazenie
+                 produkcja lubwyrazenieOpcj
+                  zawieszam epsilon
+                 zamykam produkcje lubwyrazenieOpcj
+                zamykam produkcje lubwyrazenie
+                produkcja lubwyrazenieOpcj
+                 zawieszam epsilon
+                zamykam produkcje lubwyrazenieOpcj
+               zamykam produkcje lubwyrazenieOpcj
+              zamykam produkcje lubwyrazenie
+              zawieszam ")" rodzaj 0
+              produkcja instrukcjaBlokOpcj
+              zamykam produkcje instrukcjaBlokOpcj
+             zamykam produkcje warunekD
+            zamykam produkcje typinstrukcji
+           zamykam produkcje instrukcja
+           produkcja instrukcje
+            produkcja instrukcja
+             produkcja typinstrukcji
+              produkcja przypisanieD
+               produkcja tnazwa
+                produkcja zmW_nazwa
+                 zawieszam "zm3" rodzaj 0
+                zamykam produkcje zmW_nazwa
+                produkcja dereferencjaOpcj
+                 zawieszam epsilon
+                zamykam produkcje dereferencjaOpcj
+               zamykam produkcje tnazwa
+               produkcja rowne
+                zawieszam "=" rodzaj 0
+               zamykam produkcje rowne
+               produkcja lubwyrazenie
+                produkcja iwyrazenie
+                 produkcja wyrazenie
+                  produkcja prostewyrazenie
+                   produkcja dzialanie
+                    produkcja plusm1Opcj
+                     zawieszam epsilon
+                    zamykam produkcje plusm1Opcj
+                    produkcja czynnik
+                     produkcja wywolanieD
+                      zawieszam "call" rodzaj 0
+                      produkcja prW_nazwa
+                       zawieszam "dodawanie" rodzaj 0
+                      zamykam produkcje prW_nazwa
+                      zawieszam "(" rodzaj 0
+                      produkcja pmyW
+                       produkcja pmW
+                        produkcja lubwyrazenie
+                         produkcja iwyrazenie
+                          produkcja wyrazenie
+                           produkcja prostewyrazenie
+                            produkcja dzialanie
+                             produkcja plusm1Opcj
+                              zawieszam epsilon
+                             zamykam produkcje plusm1Opcj
+                             produkcja czynnik
+                              produkcja zmW_nazwa
+                               zawieszam "zm3" rodzaj 0
+                              zamykam produkcje zmW_nazwa
+                              produkcja dereferencjaOpcj
+                               zawieszam epsilon
+                              zamykam produkcje dereferencjaOpcj
+                             zamykam produkcje czynnik
+                             produkcja czynnikOpcj
+                              zawieszam epsilon
+                             zamykam produkcje czynnikOpcj
+                            zamykam produkcje dzialanie
+                            produkcja dzialanieOpcj
+                             zawieszam epsilon
+                            zamykam produkcje dzialanieOpcj
+                           zamykam produkcje prostewyrazenie
+                           produkcja zaleznoscOpcj
+                            zawieszam epsilon
+                           zamykam produkcje zaleznoscOpcj
+                          zamykam produkcje wyrazenie
+                          produkcja iwyrazenieOpcj
+                           zawieszam epsilon
+                          zamykam produkcje iwyrazenieOpcj
+                         zamykam produkcje iwyrazenie
+                         produkcja lubwyrazenieOpcj
+                          zawieszam epsilon
+                         zamykam produkcje lubwyrazenieOpcj
+                        zamykam produkcje lubwyrazenie
+                       zamykam produkcje pmW
+                       produkcja lubwyrazenieDodOpcj
+                        zawieszam "," rodzaj 0
+                        produkcja pmW
+                         produkcja lubwyrazenie
+                          produkcja iwyrazenie
+                           produkcja wyrazenie
+                            produkcja prostewyrazenie
+                             produkcja dzialanie
+                              produkcja plusm1Opcj
+                               zawieszam epsilon
+                              zamykam produkcje plusm1Opcj
+                              produkcja czynnik
+                               produkcja liczbaint
+                                zawieszam "1" rodzaj 0
+                               zamykam produkcje liczbaint
+                              zamykam produkcje czynnik
+                              produkcja czynnikOpcj
+                               zawieszam epsilon
+                              zamykam produkcje czynnikOpcj
+                             zamykam produkcje dzialanie
+                             produkcja dzialanieOpcj
+                              zawieszam epsilon
+                             zamykam produkcje dzialanieOpcj
+                            zamykam produkcje prostewyrazenie
+                            produkcja zaleznoscOpcj
+                             zawieszam epsilon
+                            zamykam produkcje zaleznoscOpcj
+                           zamykam produkcje wyrazenie
+                           produkcja iwyrazenieOpcj
+                            zawieszam epsilon
+                           zamykam produkcje iwyrazenieOpcj
+                          zamykam produkcje iwyrazenie
+                          produkcja lubwyrazenieOpcj
+                           zawieszam epsilon
+                          zamykam produkcje lubwyrazenieOpcj
+                         zamykam produkcje lubwyrazenie
+                        zamykam produkcje pmW
+                        produkcja lubwyrazenieDodOpcj
+                         zawieszam epsilon
+                        zamykam produkcje lubwyrazenieDodOpcj
+                       zamykam produkcje lubwyrazenieDodOpcj
+                      zamykam produkcje pmyW
+                      zawieszam ")" rodzaj 0
+                     zamykam produkcje wywolanieD
+                    zamykam produkcje czynnik
+                    produkcja czynnikOpcj
+                     zawieszam epsilon
+                    zamykam produkcje czynnikOpcj
+                   zamykam produkcje dzialanie
+                   produkcja dzialanieOpcj
+                    zawieszam epsilon
+                   zamykam produkcje dzialanieOpcj
+                  zamykam produkcje prostewyrazenie
+                  produkcja zaleznoscOpcj
+                   zawieszam epsilon
+                  zamykam produkcje zaleznoscOpcj
+                 zamykam produkcje wyrazenie
+                 produkcja iwyrazenieOpcj
+                  zawieszam epsilon
+                 zamykam produkcje iwyrazenieOpcj
+                zamykam produkcje iwyrazenie
+                produkcja lubwyrazenieOpcj
+                 zawieszam epsilon
+                zamykam produkcje lubwyrazenieOpcj
+               zamykam produkcje lubwyrazenie
+              zamykam produkcje przypisanieD
+             zamykam produkcje typinstrukcji
+             zawieszam ";" rodzaj 0
+            zamykam produkcje instrukcja
+            produkcja instrukcje
+             produkcja instrukcja
+              produkcja typinstrukcji
+               produkcja przypisanieD
+                produkcja tnazwa
+                 produkcja zmW_nazwa
+                  zawieszam "zm1" rodzaj 0
+                 zamykam produkcje zmW_nazwa
+                 produkcja dereferencjaOpcj
+                  zawieszam epsilon
+                 zamykam produkcje dereferencjaOpcj
+                zamykam produkcje tnazwa
+                produkcja rowne
+                 zawieszam "=" rodzaj 0
+                zamykam produkcje rowne
+                produkcja lubwyrazenie
+                 produkcja iwyrazenie
+                  produkcja wyrazenie
+                   produkcja prostewyrazenie
+                    produkcja dzialanie
+                     produkcja plusm1Opcj
+                      zawieszam epsilon
+                     zamykam produkcje plusm1Opcj
+                     produkcja czynnik
+                      produkcja wywolanieD
+                       zawieszam "call" rodzaj 0
+                       produkcja prW_nazwa
+                        zawieszam "dodawanie" rodzaj 0
+                       zamykam produkcje prW_nazwa
+                       zawieszam "(" rodzaj 0
+                       produkcja pmyW
+                        produkcja pmW
+                         produkcja lubwyrazenie
+                          produkcja iwyrazenie
+                           produkcja wyrazenie
+                            produkcja prostewyrazenie
+                             produkcja dzialanie
+                              produkcja plusm1Opcj
+                               zawieszam epsilon
+                              zamykam produkcje plusm1Opcj
+                              produkcja czynnik
+                               produkcja zmW_nazwa
+                                zawieszam "zm1" rodzaj 0
+                               zamykam produkcje zmW_nazwa
+                               produkcja dereferencjaOpcj
+                                zawieszam epsilon
+                               zamykam produkcje dereferencjaOpcj
+                              zamykam produkcje czynnik
+                              produkcja czynnikOpcj
+                               zawieszam epsilon
+                              zamykam produkcje czynnikOpcj
+                             zamykam produkcje dzialanie
+                             produkcja dzialanieOpcj
+                              zawieszam epsilon
+                             zamykam produkcje dzialanieOpcj
+                            zamykam produkcje prostewyrazenie
+                            produkcja zaleznoscOpcj
+                             zawieszam epsilon
+                            zamykam produkcje zaleznoscOpcj
+                           zamykam produkcje wyrazenie
+                           produkcja iwyrazenieOpcj
+                            zawieszam epsilon
+                           zamykam produkcje iwyrazenieOpcj
+                          zamykam produkcje iwyrazenie
+                          produkcja lubwyrazenieOpcj
+                           zawieszam epsilon
+                          zamykam produkcje lubwyrazenieOpcj
+                         zamykam produkcje lubwyrazenie
+                        zamykam produkcje pmW
+                        produkcja lubwyrazenieDodOpcj
+                         zawieszam "," rodzaj 0
+                         produkcja pmW
+                          produkcja lubwyrazenie
+                           produkcja iwyrazenie
+                            produkcja wyrazenie
+                             produkcja prostewyrazenie
+                              produkcja dzialanie
+                               produkcja plusm1Opcj
+                                zawieszam epsilon
+                               zamykam produkcje plusm1Opcj
+                               produkcja czynnik
+                                produkcja liczbaint
+                                 zawieszam "1" rodzaj 0
+                                zamykam produkcje liczbaint
+                               zamykam produkcje czynnik
+                               produkcja czynnikOpcj
+                                zawieszam epsilon
+                               zamykam produkcje czynnikOpcj
+                              zamykam produkcje dzialanie
+                              produkcja dzialanieOpcj
+                               zawieszam epsilon
+                              zamykam produkcje dzialanieOpcj
+                             zamykam produkcje prostewyrazenie
+                             produkcja zaleznoscOpcj
+                              zawieszam epsilon
+                             zamykam produkcje zaleznoscOpcj
+                            zamykam produkcje wyrazenie
+                            produkcja iwyrazenieOpcj
+                             zawieszam epsilon
+                            zamykam produkcje iwyrazenieOpcj
+                           zamykam produkcje iwyrazenie
+                           produkcja lubwyrazenieOpcj
+                            zawieszam epsilon
+                           zamykam produkcje lubwyrazenieOpcj
+                          zamykam produkcje lubwyrazenie
+                         zamykam produkcje pmW
+                         produkcja lubwyrazenieDodOpcj
+                          zawieszam epsilon
+                         zamykam produkcje lubwyrazenieDodOpcj
+                        zamykam produkcje lubwyrazenieDodOpcj
+                       zamykam produkcje pmyW
+                       zawieszam ")" rodzaj 0
+                      zamykam produkcje wywolanieD
+                     zamykam produkcje czynnik
+                     produkcja czynnikOpcj
+                      zawieszam epsilon
+                     zamykam produkcje czynnikOpcj
+                    zamykam produkcje dzialanie
+                    produkcja dzialanieOpcj
+                     zawieszam epsilon
+                    zamykam produkcje dzialanieOpcj
+                   zamykam produkcje prostewyrazenie
+                   produkcja zaleznoscOpcj
+                    zawieszam epsilon
+                   zamykam produkcje zaleznoscOpcj
+                  zamykam produkcje wyrazenie
+                  produkcja iwyrazenieOpcj
+                   zawieszam epsilon
+                  zamykam produkcje iwyrazenieOpcj
+                 zamykam produkcje iwyrazenie
+                 produkcja lubwyrazenieOpcj
+                  zawieszam epsilon
+                 zamykam produkcje lubwyrazenieOpcj
+                zamykam produkcje lubwyrazenie
+               zamykam produkcje przypisanieD
+              zamykam produkcje typinstrukcji
+              zawieszam ";" rodzaj 0
+             zamykam produkcje instrukcja
+             produkcja instrukcje
+              zawieszam epsilon
+             zamykam produkcje instrukcje
+            zamykam produkcje instrukcje
+           zamykam produkcje instrukcje
+          zamykam produkcje instrukcje
+         zamykam produkcje instrukcje
+         produkcja endOpcj
+          zawieszam "end" rodzaj 0
+         zamykam produkcje endOpcj
+        zamykam produkcje instrukcjaBlokOpcj
+       zamykam produkcje petlaD
+      zamykam produkcje typinstrukcji
+     zamykam produkcje instrukcja
+     produkcja instrukcje
+      produkcja instrukcja
+       produkcja typinstrukcji
+        produkcja wyjscieD
+         zawieszam "write" rodzaj 0
+         zawieszam "(" rodzaj 0
+         produkcja lubwyrazenie
+          produkcja iwyrazenie
+           produkcja wyrazenie
+            produkcja prostewyrazenie
+             produkcja dzialanie
+              produkcja plusm1Opcj
+               zawieszam epsilon
+              zamykam produkcje plusm1Opcj
+              produkcja czynnik
+               produkcja lznakowy
+                zawieszam ""To jest wartosc wyniku: "" rodzaj 0
+               zamykam produkcje lznakowy
+              zamykam produkcje czynnik
+              produkcja czynnikOpcj
+               zawieszam epsilon
+              zamykam produkcje czynnikOpcj
+             zamykam produkcje dzialanie
+             produkcja dzialanieOpcj
+              zawieszam epsilon
+             zamykam produkcje dzialanieOpcj
+            zamykam produkcje prostewyrazenie
+            produkcja zaleznoscOpcj
+             zawieszam epsilon
+            zamykam produkcje zaleznoscOpcj
+           zamykam produkcje wyrazenie
+           produkcja iwyrazenieOpcj
+            zawieszam epsilon
+           zamykam produkcje iwyrazenieOpcj
+          zamykam produkcje iwyrazenie
+          produkcja lubwyrazenieOpcj
+           zawieszam epsilon
+          zamykam produkcje lubwyrazenieOpcj
+         zamykam produkcje lubwyrazenie
+         zawieszam ")" rodzaj 0
+        zamykam produkcje wyjscieD
+       zamykam produkcje typinstrukcji
+       zawieszam ";" rodzaj 0
+      zamykam produkcje instrukcja
+      produkcja instrukcje
+       produkcja instrukcja
+        produkcja typinstrukcji
+         produkcja wyjscieD
+          zawieszam "write" rodzaj 0
+          zawieszam "(" rodzaj 0
+          produkcja lubwyrazenie
+           produkcja iwyrazenie
+            produkcja wyrazenie
+             produkcja prostewyrazenie
+              produkcja dzialanie
+               produkcja plusm1Opcj
+                zawieszam epsilon
+               zamykam produkcje plusm1Opcj
+               produkcja czynnik
+                produkcja wywolanieD
+                 zawieszam "call" rodzaj 0
+                 produkcja prW_nazwa
+                  zawieszam "dodawanie2" rodzaj 0
+                 zamykam produkcje prW_nazwa
+                 zawieszam "(" rodzaj 0
+                 produkcja pmyW
+                  produkcja pmW
+                   produkcja lubwyrazenie
+                    produkcja iwyrazenie
+                     produkcja wyrazenie
+                      produkcja prostewyrazenie
+                       produkcja dzialanie
+                        produkcja plusm1Opcj
+                         zawieszam epsilon
+                        zamykam produkcje plusm1Opcj
+                        produkcja czynnik
+                         produkcja zmW_nazwa
+                          zawieszam "zm2" rodzaj 0
+                         zamykam produkcje zmW_nazwa
+                         produkcja dereferencjaOpcj
+                          zawieszam epsilon
+                         zamykam produkcje dereferencjaOpcj
+                        zamykam produkcje czynnik
+                        produkcja czynnikOpcj
+                         zawieszam epsilon
+                        zamykam produkcje czynnikOpcj
+                       zamykam produkcje dzialanie
+                       produkcja dzialanieOpcj
+                        zawieszam epsilon
+                       zamykam produkcje dzialanieOpcj
+                      zamykam produkcje prostewyrazenie
+                      produkcja zaleznoscOpcj
+                       zawieszam epsilon
+                      zamykam produkcje zaleznoscOpcj
+                     zamykam produkcje wyrazenie
+                     produkcja iwyrazenieOpcj
+                      zawieszam epsilon
+                     zamykam produkcje iwyrazenieOpcj
+                    zamykam produkcje iwyrazenie
+                    produkcja lubwyrazenieOpcj
+                     zawieszam epsilon
+                    zamykam produkcje lubwyrazenieOpcj
+                   zamykam produkcje lubwyrazenie
+                  zamykam produkcje pmW
+                  produkcja lubwyrazenieDodOpcj
+                   zawieszam "," rodzaj 0
+                   produkcja pmW
+                    produkcja lubwyrazenie
+                     produkcja iwyrazenie
+                      produkcja wyrazenie
+                       produkcja prostewyrazenie
+                        produkcja dzialanie
+                         produkcja plusm1Opcj
+                          zawieszam epsilon
+                         zamykam produkcje plusm1Opcj
+                         produkcja czynnik
+                          produkcja zmW_nazwa
+                           zawieszam "zm3" rodzaj 0
+                          zamykam produkcje zmW_nazwa
+                          produkcja dereferencjaOpcj
+                           zawieszam epsilon
+                          zamykam produkcje dereferencjaOpcj
+                         zamykam produkcje czynnik
+                         produkcja czynnikOpcj
+                          zawieszam epsilon
+                         zamykam produkcje czynnikOpcj
+                        zamykam produkcje dzialanie
+                        produkcja dzialanieOpcj
+                         zawieszam epsilon
+                        zamykam produkcje dzialanieOpcj
+                       zamykam produkcje prostewyrazenie
+                       produkcja zaleznoscOpcj
+                        zawieszam epsilon
+                       zamykam produkcje zaleznoscOpcj
+                      zamykam produkcje wyrazenie
+                      produkcja iwyrazenieOpcj
+                       zawieszam epsilon
+                      zamykam produkcje iwyrazenieOpcj
+                     zamykam produkcje iwyrazenie
+                     produkcja lubwyrazenieOpcj
+                      zawieszam epsilon
+                     zamykam produkcje lubwyrazenieOpcj
+                    zamykam produkcje lubwyrazenie
+                   zamykam produkcje pmW
+                   produkcja lubwyrazenieDodOpcj
+                    zawieszam epsilon
+                   zamykam produkcje lubwyrazenieDodOpcj
+                  zamykam produkcje lubwyrazenieDodOpcj
+                 zamykam produkcje pmyW
+                 zawieszam ")" rodzaj 0
+                zamykam produkcje wywolanieD
+               zamykam produkcje czynnik
+               produkcja czynnikOpcj
+                zawieszam epsilon
+               zamykam produkcje czynnikOpcj
+              zamykam produkcje dzialanie
+              produkcja dzialanieOpcj
+               zawieszam epsilon
+              zamykam produkcje dzialanieOpcj
+             zamykam produkcje prostewyrazenie
+             produkcja zaleznoscOpcj
+              zawieszam epsilon
+             zamykam produkcje zaleznoscOpcj
+            zamykam produkcje wyrazenie
+            produkcja iwyrazenieOpcj
+             zawieszam epsilon
+            zamykam produkcje iwyrazenieOpcj
+           zamykam produkcje iwyrazenie
+           produkcja lubwyrazenieOpcj
+            zawieszam epsilon
+           zamykam produkcje lubwyrazenieOpcj
+          zamykam produkcje lubwyrazenie
+          zawieszam ")" rodzaj 0
+         zamykam produkcje wyjscieD
+        zamykam produkcje typinstrukcji
+        zawieszam ";" rodzaj 0
+       zamykam produkcje instrukcja
+       produkcja instrukcje
+        produkcja instrukcja
+         produkcja typinstrukcji
+          produkcja wyjscieD
+           zawieszam "write" rodzaj 0
+           zawieszam "(" rodzaj 0
+           produkcja lubwyrazenie
+            produkcja iwyrazenie
+             produkcja wyrazenie
+              produkcja prostewyrazenie
+               produkcja dzialanie
+                produkcja plusm1Opcj
+                 zawieszam epsilon
+                zamykam produkcje plusm1Opcj
+                produkcja czynnik
+                 produkcja lznakowy
+                  zawieszam ""A to wartosc pierwszej operacji:"" rodzaj 0
+                 zamykam produkcje lznakowy
+                zamykam produkcje czynnik
+                produkcja czynnikOpcj
+                 zawieszam epsilon
+                zamykam produkcje czynnikOpcj
+               zamykam produkcje dzialanie
+               produkcja dzialanieOpcj
+                zawieszam epsilon
+               zamykam produkcje dzialanieOpcj
+              zamykam produkcje prostewyrazenie
+              produkcja zaleznoscOpcj
+               zawieszam epsilon
+              zamykam produkcje zaleznoscOpcj
+             zamykam produkcje wyrazenie
+             produkcja iwyrazenieOpcj
+              zawieszam epsilon
+             zamykam produkcje iwyrazenieOpcj
+            zamykam produkcje iwyrazenie
+            produkcja lubwyrazenieOpcj
+             zawieszam epsilon
+            zamykam produkcje lubwyrazenieOpcj
+           zamykam produkcje lubwyrazenie
+           zawieszam ")" rodzaj 0
+          zamykam produkcje wyjscieD
+         zamykam produkcje typinstrukcji
+         zawieszam ";" rodzaj 0
+        zamykam produkcje instrukcja
+        produkcja instrukcje
+         produkcja instrukcja
+          produkcja typinstrukcji
+           produkcja wyjscieD
+            zawieszam "write" rodzaj 0
+            zawieszam "(" rodzaj 0
+            produkcja lubwyrazenie
+             produkcja iwyrazenie
+              produkcja wyrazenie
+               produkcja prostewyrazenie
+                produkcja dzialanie
+                 produkcja plusm1Opcj
+                  zawieszam epsilon
+                 zamykam produkcje plusm1Opcj
+                 produkcja czynnik
+                  zawieszam "true" rodzaj 0
+                 zamykam produkcje czynnik
+                 produkcja czynnikOpcj
+                  zawieszam epsilon
+                 zamykam produkcje czynnikOpcj
+                zamykam produkcje dzialanie
+                produkcja dzialanieOpcj
+                 zawieszam epsilon
+                zamykam produkcje dzialanieOpcj
+               zamykam produkcje prostewyrazenie
+               produkcja zaleznoscOpcj
+                zawieszam epsilon
+               zamykam produkcje zaleznoscOpcj
+              zamykam produkcje wyrazenie
+              produkcja iwyrazenieOpcj
+               produkcja and
+                zawieszam "and" rodzaj 0
+               zamykam produkcje and
+               produkcja iwyrazenie
+                produkcja wyrazenie
+                 produkcja prostewyrazenie
+                  produkcja dzialanie
+                   produkcja plusm1Opcj
+                    zawieszam epsilon
+                   zamykam produkcje plusm1Opcj
+                   produkcja czynnik
+                    zawieszam "false" rodzaj 0
+                   zamykam produkcje czynnik
+                   produkcja czynnikOpcj
+                    zawieszam epsilon
+                   zamykam produkcje czynnikOpcj
+                  zamykam produkcje dzialanie
+                  produkcja dzialanieOpcj
+                   zawieszam epsilon
+                  zamykam produkcje dzialanieOpcj
+                 zamykam produkcje prostewyrazenie
+                 produkcja zaleznoscOpcj
+                  zawieszam epsilon
+                 zamykam produkcje zaleznoscOpcj
+                zamykam produkcje wyrazenie
+                produkcja iwyrazenieOpcj
+                 zawieszam epsilon
+                zamykam produkcje iwyrazenieOpcj
+               zamykam produkcje iwyrazenie
+               produkcja iwyrazenieOpcj
+                zawieszam epsilon
+               zamykam produkcje iwyrazenieOpcj
+              zamykam produkcje iwyrazenieOpcj
+             zamykam produkcje iwyrazenie
+             produkcja lubwyrazenieOpcj
+              zawieszam epsilon
+             zamykam produkcje lubwyrazenieOpcj
+            zamykam produkcje lubwyrazenie
+            zawieszam ")" rodzaj 0
+           zamykam produkcje wyjscieD
+          zamykam produkcje typinstrukcji
+          zawieszam ";" rodzaj 0
+         zamykam produkcje instrukcja
+         produkcja instrukcje
+          zawieszam epsilon
+         zamykam produkcje instrukcje
+        zamykam produkcje instrukcje
+       zamykam produkcje instrukcje
+      zamykam produkcje instrukcje
+     zamykam produkcje instrukcje
+    zamykam produkcje instrukcje
+   zamykam produkcje instrukcje
+  zamykam produkcje instrukcje
+ zamykam produkcje instrukcje
+ zawieszam "end" rodzaj 0
+zamykam produkcje program
+zamykam produkcje program

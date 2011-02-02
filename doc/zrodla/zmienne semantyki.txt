@@ -1,0 +1,49 @@
+my $prD	my $prDA = 0	procedura
+my $prD_nazwa	my $prD_nazwaA = 0	prD_nazwa
+my $prD_typ	my $prD_typA = 0	prD_typ
+my $prW	my $prWA = 0	
+my $prW_nazwa	my $prW_nazwaA = 0	prW_nazwa
+my $pmD	my $pmDA = 0	parametr
+my $pmyD		parametryOpcj
+my $pmW		pmW
+my $zmD	my $zmDA = 0	deklaracja
+my $zmD_nazwa	my $zmD_nazwaA = 0	zmD_nazwa
+my $zmD_typ	my $zmD_typA = 0	zmD_typ
+my $zmW_nazwa	my $zmW_nazwaA = 0	zmW_nazwa
+my $zmA_nazwa	my $zmA_nazwaA	zmA_nazwa
+my $zmZ_nazwa	my $zmZ_nazwaA	zmZ_nazwa
+my $blD		blokD
+my $ar	my $arA, $arAA	arrayof	
+my $ti	my $tiA = 0	liczbaint
+my $tf	my $tfA = 0	liczbaf
+my $tb	my $tbA = 0	logika
+my $ts	my $tsA = 0	lznakowy
+my @op = ()	my $opA = 0	plusm, razyd, zaleznosc, and, or, rowne, nawoo, nawoz, naklz
+my $op1	my $op1A = 0	plusm1
+my $lw	my $lwA = 0	lubwyrazenie
+my $ro		przypisanieD
+my $al		alokacjaD
+my $zw		zwolnienieD
+my $ret		zwrot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
